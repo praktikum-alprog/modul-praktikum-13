@@ -223,7 +223,7 @@ void perkalian(){
 	    printf ("\n\t---------------------------------------------------------\n");
 	    printf ("\t                 Hasil Perkalian Matriks                 \n");
 	    printf ("\t---------------------------------------------------------\n");
-	    printf("\t\t  Hasil Perkalian adalah Matriks Berordo %dx%d\n", n, q);
+	    printf("\t\t  Hasil Perkalian adalah Matriks Berordo %dx%d\n", m, q);
 	    for(i = 0; i < m; i++){
 	      for(j = 0; j < q; j++){
 	      	printf("\t|");
