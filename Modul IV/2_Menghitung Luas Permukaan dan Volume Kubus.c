@@ -47,9 +47,9 @@ int main(i)
 
     {
     printf("\n\n\n");
-    printf("\t\t\t\t          Praktikum Algoritma dan Pemrograman Modul II       \n");
+    printf("\t\t\t\t          Praktikum Algoritma dan Pemrograman Modul IV       \n");
     printf("\t\t\t\t=============================================================\n");
-    printf("\t\t\t\t==============Program Mencari Deretan Fibonacci==============\n");
+    printf("\t\t\t\t======Program Menghitung Luas Permukaan Dan Volume Kubus=====\n");
     printf("\t\t\t\t====================== Oleh Kelompok 13 =====================\n");
     printf("\t\t\t\t-------------------------------------------------------------\n");
     printf("\t\t\t\t|                      ANGGOTA KELOMPOK:                     |\n");
