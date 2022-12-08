@@ -72,7 +72,7 @@ int main(i)
     UlangValidasiInt(&i, "Masukan angka Sisi Kubus : ");
 
     kubus1.sisi_struct = i;
-    kubus1.lp_struct = i * pow(kubus1.sisi_struct, 2);
+    kubus1.lp_struct = 6 * pow(kubus1.sisi_struct, 2);
     kubus1.v_struct = pow(kubus1.sisi_struct, 3);
 
     printf("=================================================\n");
@@ -87,7 +87,7 @@ int main(i)
     printf("=================================================\n");
     kubus2.sisi_union = i;
     printf("sisi kubus : %d\n", kubus2.sisi_union);
-    kubus2.lp_union = i * pow(kubus2.sisi_union, 2);
+    kubus2.lp_union = 6 * pow(kubus2.sisi_union, 2);
     printf("luas permukaan kubus : %d\n", kubus2.lp_union);
     kubus2.sisi_union = i;
     kubus2.v_union = pow(kubus2.sisi_union, 3);
