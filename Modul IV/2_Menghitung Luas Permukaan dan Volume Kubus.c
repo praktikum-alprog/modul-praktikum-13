@@ -81,7 +81,6 @@ int main(i)
     printf("sisi kubus : %d\n", kubus1.sisi_struct);
     printf("luas permukaan kubus : %d\n", kubus1.lp_struct);
     printf("volume kubus : %d\n", kubus1.v_struct);
-    printf("Ukuran Memory Pada Kubus Struct : %d\n\n", sizeof(kubus1));
 
     printf("=================================================\n");
     printf("=             HASIL PERHITUNGAN UNION           =\n");
@@ -92,7 +91,9 @@ int main(i)
     printf("luas permukaan kubus : %d\n", kubus2.lp_union);
     kubus2.sisi_union = i;
     kubus2.v_union = pow(kubus2.sisi_union, 3);
-    printf("volume kubus : %d\n", kubus2.v_union);
+    printf("volume kubus : %d\n\n", kubus2.v_union);
+    
+    printf("Ukuran Memory Pada Kubus Struct : %d\n", sizeof(kubus1));
     printf("Ukuran Memory Pada Kubus Union : %d\n", sizeof(kubus2));
 
     printf("\n================================================\n");
